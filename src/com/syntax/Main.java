@@ -8,5 +8,12 @@ public class Main {
         factoX.planet = "2";
         factoX.stars = "10000";
         factoX.sun = "1";
+
+        // adding features to our sun
+        FeatureSun xFact = new FeatureSun();
+        xFact.color = "green";
+        xFact.radius = "10000000";
+        xFact.heat = "89485720807245";
+
     }
 }
