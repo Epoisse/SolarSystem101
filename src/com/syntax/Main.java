@@ -3,7 +3,7 @@ package com.syntax;
 public class Main {
 
     public static void main(String[] args) {
-	SolarSystem factoX=new SolarSystem();
+        SolarSystem factoX = new SolarSystem();
         factoX.moon = "4";
         factoX.planet = "2";
         factoX.stars = "10000";
@@ -16,9 +16,15 @@ public class Main {
         xFact.heat = "89485720807245";
 
         // adding the features for star in the solar system
-        FeatureStars facX=new FeatureStars();
+        FeatureStars facX = new FeatureStars();
         facX.color = "green";
         facX.radius = "428572845km";
         facX.size = "345435";
+
+        // adding features for planet1
+        Planet1Feature gulk = new Planet1Feature();
+        gulk.color = "blue";
+        gulk.size = "245245214";
+        gulk.name = "preachex";
     }
 }
